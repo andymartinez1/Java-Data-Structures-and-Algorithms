@@ -12,7 +12,7 @@ public class BinarySearch {
             System.out.println("Element not found");
     }
 
-    /* BINARY SEARCH O(log n) */
+    /* BINARY SEARCH O(log n) Logarithmic Time */
     public static int binarySearch(int[] nums, int target) {
         int steps = 0;
         int left = 0;
